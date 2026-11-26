@@ -1,0 +1,17 @@
+INTEGRACION: Inventario y mantenimiento TI
+
+1. Copiar los tres archivos de esta carpeta junto a los demas archivos del proyecto.
+2. Mantener Generar_Reporte.ps1, Configuracion.json (si existe) y la plantilla Word original.
+3. El BAT arranca el menu normalmente. No abre Edge por si mismo.
+4. Elegir opcion 1 (Automatico) para abrir la URL en Edge y ejecutar las tareas.
+5. La tarea "Verificacion y Correccion de permisos en el usuario" aparece al final del catalogo y tambien en el menu manual.
+6. Automatico: la revocacion empieza solamente cuando han concluido las demas tareas.
+7. Manual: elegir esa tarea especificamente. Requiere elevacion y cuenta administrativa de respaldo comprobada.
+8. El supervisor pasa nombre, resultado y detalle en registros del payload del informe Word y al resumen final.
+
+PRECAUCIONES:
+- La revocacion afecta SOLO membresia directa local de identidades corporativas; omite cuentas locales.
+- Comprobar previamente acceso REAL a otra cuenta administrativa (contrasena y habilitacion).
+- Grupos de Entra ID o GPO pueden otorgar o reponer privilegios.
+- La generacion exacta del Word depende de Generar_Reporte.ps1, no adjunto aqui.
+- La URL se abre, no se valida que el sitio cargue correctamente.
