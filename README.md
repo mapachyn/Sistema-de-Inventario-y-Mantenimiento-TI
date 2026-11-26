@@ -87,3 +87,13 @@ Algunas funciones pueden modificar configuraciones del equipo, incluidos los per
 ## Objetivo del proyecto
 
 Centralizar y automatizar las actividades de inventario y mantenimiento preventivo de equipos corporativos, reduciendo el trabajo manual, estandarizando los procedimientos técnicos y facilitando la trazabilidad de los activos tecnológicos.
+
+## Versión pública del proyecto
+
+Este repositorio contiene una versión depurada del sistema de inventario y mantenimiento TI.
+
+Por motivos de seguridad, se han excluido las credenciales, configuraciones privadas y otros datos potencialmente sensibles de la infraestructura corporativa.
+
+Algunas funcionalidades, como la integración con Microsoft Power Automate, requieren configurar los parámetros correspondientes antes de su utilización.
+
+El propósito de este repositorio es documentar el desarrollo de la herramienta y demostrar la implementación de procesos automatizados mediante PowerShell, Batch y tecnologías Microsoft.
